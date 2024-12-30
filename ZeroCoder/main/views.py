@@ -7,3 +7,9 @@ def index(request):
 
 def new(request):
     return HttpResponse("<h1>Это вторая страница моего проекта на Django</h1>")
+
+def data(request):
+    return HttpResponse("<h1>С наступающим 2025 годом!</h1>")
+
+def test(request):
+    return HttpResponse("<h1>Благодарю Миру! Пусть 2025 год станет мирным во всём Мире!</h1>")
